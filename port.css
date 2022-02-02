@@ -1,0 +1,29 @@
+#headername{
+
+    display: flex;
+    justify-content: flex-start;
+
+
+  }
+
+.header {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  background-color: DodgerBlue;
+}
+
+
+
+   
+.header  > div {
+     
+  background-color: #f1f1f1;
+  width: 100px;
+  height: 25px;
+  margin: 10px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 15px;
+}
