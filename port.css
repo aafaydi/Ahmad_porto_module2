@@ -1,12 +1,6 @@
 
 
-/* nav {
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-    float:right;
-    display:inline;
-} */
+
 body {background-color: powderblue;}
 
 .header {
@@ -60,14 +54,19 @@ p {
   margin-left: 25px;
 }
 
-
+section.about-me {
+  display: flex;
+  flex-direction: row;
+  Margin: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
 
 
 div.box {
   
   position: relative;
-  display: inline-block;
-  
+  display: inline-block;  
   height: 380px;
   width: 780px;
   margin-top: 75px;
@@ -75,9 +74,6 @@ div.box {
   white-space: nowrap;
   overflow-x: auto;
 }
-
-
-
 
 
 div.absolute {
@@ -89,6 +85,10 @@ div.absolute {
   border: 3px solid #73AD21;
 }
 
+
+
+
+
 .box2 {
 
   padding: 24px;
@@ -99,39 +99,35 @@ div.absolute {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #2589bd;
 } 
-section.about-me {
+
+
+ .flex-nav{
+
   display: flex;
-  flex-direction: row;
-  Margin: 10px;
-  flex-wrap: wrap;
-  /* align-content: center;
-  justify-content: center; */
-  align-items: center;
+  background-color: rgb(230, 211, 176);
+  flex-direction: column;
+  
 }
 
- Section.nav {
+  .flex-nav > div {
   display: flex;
-  flex-direction: row;
+  border: 10px solid transparent;
+  background-color: white;
   margin: 10px;
-  align-items: right;
-
-
-
-
- }
-  
+  font-size: 30px;
+  width: 670px;
+  height: 300px;
   
 
-
-
-.personal-info > div {
-  width: 30%;
-  display: inline-block;
-  vertical-align: top;
-  text-align: center;
-  margin: 30px 0 0 60px;
-  color: white;
 }
+
+ .resume {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: greenyellow;
+  color: #c96a6a;
 
   @media screen and (max-width:600px) {
     .row {
