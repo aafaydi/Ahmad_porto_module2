@@ -39,7 +39,7 @@ a {
 }
 
 p {
-  font-size: 39px;
+  font-size: 25px;
   font-style: inherit;
   margin-left: 25px;
 }
@@ -53,7 +53,7 @@ p {
 
 .float-right {
   float: right;
-  margin-left: 25px;
+  /* margin-left: 25px; */
 }
 
 section.about-me {
@@ -109,16 +109,18 @@ div.absolute {
   background-color: rgb(230, 211, 176);
   flex-direction: column;
   
+  
 }
 
   .flex-nav > div {
   display: flex;
   border: 10px solid transparent;
-  background-color: rgb(230, 211, 176);
+  background-color: powderblue;
   margin: 10px;
   font-size: 30px;
   width: 670px;
   height: 300px;
+  background-image: url("./images/logic4.jfif");
   white-space: wrap;
   overflow-x: auto;
   
