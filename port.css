@@ -39,7 +39,9 @@ a {
 }
 
 p {
-  font-size: 16px;
+  font-size: 39px;
+  font-style: inherit;
+  margin-left: 25px;
 }
 
 
@@ -112,11 +114,13 @@ div.absolute {
   .flex-nav > div {
   display: flex;
   border: 10px solid transparent;
-  background-color: white;
+  background-color: rgb(230, 211, 176);
   margin: 10px;
   font-size: 30px;
   width: 670px;
   height: 300px;
+  white-space: wrap;
+  overflow-x: auto;
   
 
 }
