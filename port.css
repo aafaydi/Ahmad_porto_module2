@@ -3,17 +3,20 @@
 
 body {background-color: powderblue;}
 
-.header {
+/* <!--create header--> */
+ .header { 
   padding: 20px;
   background-color: greenyellow;
   color: black;
  }
 
+ /* <!--style left item--> */
 .header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
+/* <!--style right item--> */
 .header div {
   padding-top: 15px;
   margin-right: 20px;
@@ -22,20 +25,24 @@ body {background-color: powderblue;}
   font-size: 20px;
 }
 
+/* <!--style right item--> */
 .header div ul {
   list-style-type: none;
 }
 
+/* <!--style right item--> */
 .header div ul li {
   display: inline-block;
   margin-left: 25px;
 }
  
+/* <!--style a color--> */
 a {
   color: black;
   text-decoration: none;
 }
 
+/* <!--style <p>--> */
 p {
   
   font-size: 25px;
@@ -45,6 +52,7 @@ p {
   
 }
 
+/* <!--style <p2>--> */
 p2 {   
   
   font-size: 50px;
@@ -54,25 +62,28 @@ p2 {
 
 }
 
+/* <!--funtion left--> */
 .float-left {
   float: left;
   margin-right: 25px;
 }
 
+/* <!--funtion right--> */
 .float-right {
   float: right;
   margin-left: 25px;
 }
 
+/* <!--style flex section about me--> */
 section.about-me {
   display: flex;
-  flex-direction: row;
+  flex-direction: row;  
   Margin: 10px;
   flex-wrap: wrap;
   align-items: center;
 }
 
-
+/* <!--style flex relative div box about me image --> */
 div.box {
   
   position: relative;
@@ -84,8 +95,7 @@ div.box {
   white-space: nowrap;
   overflow-x: auto;
 }
-
-
+/* <!--style flex absolute image div box inside relative image box --> */
 div.absolute {
   position: absolute;
   bottom: 235px;
@@ -98,7 +108,7 @@ div.absolute {
 
 
 
-
+/* <!--style section about me  --> */
 .box2 {
   padding: 24px;
   margin-left: 60px;
@@ -110,7 +120,7 @@ div.absolute {
   overflow-x: auto;
 } 
 
-
+/* <!--style flex nav for item header navigation--> */
  .flex-nav{
 
   display: flex;
@@ -119,19 +129,19 @@ div.absolute {
   flex-direction: column;
  }
 
-
+/* <!--style navigation flex setions columns  --> */
    .flex-nav > div {
   display: flex;
   border-style: solid;
   margin: 10px;
   font-size: 30px;
   width: 1200px;
-  height: 150x;
-  
+  height: 150x;  
   white-space: wrap;
   overflow-x: auto;
  }
 
+ /* <!--style contents text inside the column --> */
  .flex-contents {
   display: flex;
   margin-bottom: 20px;
@@ -141,12 +151,14 @@ div.absolute {
   color: black;
  }
 
+ /* <!--trying to clear the images after resizing --> */
  img {
   image-rendering: auto;
   image-rendering: crisp-edges;
   image-rendering: pixelated;
 }
 
+/* <!--style footer --> */
 .foot {
  display: flex;
   background-color: white;
