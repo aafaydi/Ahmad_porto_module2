@@ -39,7 +39,7 @@ a {
 
 p {
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-  font-size: 25px;
+  font-size= 25px;
   font-style: inherit;
   margin-left: 25px;
   text-align: justify;
@@ -136,11 +136,11 @@ div.absolute {
   image-rendering: pixelated;
 }
 
-.foot{
+.foot {
  display: flex;
   background-color: white;
   justify-content: right;
-  justify-content: space-between;;
+  justify-content: space-between;
   border-style:double;   
   width: 1329px;
   height: 100Px;
