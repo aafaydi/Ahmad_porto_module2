@@ -63,6 +63,12 @@ p2 {
 
 }
 
+p3{
+  font-size: 10px;
+  margin: 20px;
+  padding: 10px;
+}
+
 /* <!--funtion left--> */
 .float-left {
   float: left;
