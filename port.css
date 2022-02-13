@@ -160,11 +160,11 @@ div.absolute {
  }
 
  /* <!--trying to clear the images after resizing --> */
- /* img {
+ img {
   image-rendering: auto;
   image-rendering: crisp-edges;
   image-rendering: pixelated;
-} */
+}
 
 /* <!--style footer --> */
 .foot {
