@@ -34,7 +34,7 @@ body {background-color: powderblue;}
 .header div ul li {
   display: inline-block;
   padding: 10px 15px;
-  /* margin-left: 25px; */
+  
 }
  
 /* <!--style a color--> */
@@ -160,11 +160,11 @@ div.absolute {
  }
 
  /* <!--trying to clear the images after resizing --> */
- img {
+ /* img {
   image-rendering: auto;
   image-rendering: crisp-edges;
   image-rendering: pixelated;
-}
+} */
 
 /* <!--style footer --> */
 .foot {
