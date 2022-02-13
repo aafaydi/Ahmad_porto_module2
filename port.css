@@ -139,27 +139,18 @@ div.absolute {
 .foot{
  display: flex;
   background-color: white;
+  justify-content: right;
+  justify-content: space-between;;
   border-style:double;   
-  width: 1340px;
+  width: 1329px;
   height: 100Px;
   
 }
 
 
 
-.foot-right > div{
-  display: flex;
-  justify-content: flex-end;  
-  width: 400px;
-  height: 99px;
-   
-  /* margin-right: 25px; */
-
-}
-
-
-  @media screen and (max-width:600px) {
+  /* @media screen and (max-width:600px) {
     .row {
       width: 100%;
     }
-}
+} */
