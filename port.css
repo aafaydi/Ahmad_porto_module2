@@ -162,6 +162,18 @@ div.absolute {
   color: black;
  }
 
+#projectone {
+  margin-top: 50px;
+  font-size:larger;
+  color:rgb(255, 123, 0);
+  padding: 10px;
+}
+
+#text {
+  padding: 5px;
+  color: blue;
+}
+
  /* <!--trying to clear the images after resizing --> */
  img {
   image-rendering: auto;
