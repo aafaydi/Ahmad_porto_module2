@@ -170,6 +170,7 @@ div.absolute {
 }
 
 #text {
+  font-size: 1.5ch;
   padding: 5px;
   color: blue;
 }
