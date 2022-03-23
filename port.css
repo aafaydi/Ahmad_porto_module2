@@ -194,11 +194,7 @@ div.absolute {
   border-style:double;   
   width: 1312px;
   height: 100Px;
-<<<<<<< HEAD
   background-image: url("./Images/charlotte2.jfif");
-=======
-  background-image: url("./Images/charlotte2.JFIF");
->>>>>>> 21f412a0dcfd9b76920a0fedf899320aa11c6848
   background-size: 300px 100px;
     
 }
