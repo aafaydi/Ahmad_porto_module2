@@ -129,6 +129,8 @@ div.absolute {
   background-color: #2589bd;
   white-space: wrap;
   overflow-x: auto;
+  word-spacing:normal;
+  color:brown;
 } 
 
 /* <!--style flex nav for item header navigation--> */
