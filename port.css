@@ -173,6 +173,7 @@ div.absolute {
   font-size: 1.5ch;
   padding: 5px;
   color: blue;
+  word-spacing: 4px;
 }
 
  /* <!--trying to clear the images after resizing --> */
