@@ -36,6 +36,7 @@ body {background-color: powderblue;}
 /* <!--style right item--> */
 .header div ul li {
   display: inline-block;
+  font-weight: bold;
   padding: 10px 15px;
   
 }
@@ -89,9 +90,11 @@ section.about-me {
   display: flex;
   flex-direction: row;  
   align-items: flex-start;
-  Margin: 10px;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  /* Margin: 10px; */
   flex-wrap: wrap;
-  align-items: center;
+  
 }
 
 /* <!--style flex relative div box about me image --> */
@@ -99,7 +102,7 @@ div.box {
   
   position: relative;
   display: inline-block;  
-  height: 380px;
+  height: 390px;
   width: 780px;
   margin-top: 75px;
   border: 3px solid #73AD21;
@@ -125,7 +128,7 @@ div.absolute {
   margin-left: 60px;
   margin-top: 60px;
   width: 399px;
-  height: 340px;
+  height: 355px;
   background-color: #2589bd;
   white-space: wrap;
   overflow-x: auto;
@@ -148,7 +151,7 @@ div.absolute {
   border-style: solid;
   margin: 10px;
   font-size: 30px;
-  width: 1200px;
+  width: 1400px;
   height: 150x;  
   white-space: wrap;
   overflow-x: auto;
@@ -192,7 +195,7 @@ div.absolute {
   justify-content: right;
   justify-content: space-between;
   border-style:double;   
-  width: 1312px;
+  width: 1510px;
   height: 100Px;
   background-image: url("./Images/charlotte2.jfif");
   background-size: 300px 100px;
