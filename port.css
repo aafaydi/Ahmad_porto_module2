@@ -169,16 +169,22 @@ div.absolute {
 
 #projectone {
   margin-top: 50px;
+  margin-right: 50px;
   font-size:larger;
   color:rgb(255, 123, 0);
-  padding: 10px;
+  
+}
+
+#projecttwo {
+  font-size:larger;
+  color:rgb(255, 123, 0);
+  
 }
 
 #text {
-  font-size: 1.5ch;
-  padding: 5px;
-  color: blue;
-  word-spacing: 4px;
+    font-size: 1.5ch;
+    color: blue;
+    word-spacing: 1px;
 }
 
  /* <!--trying to clear the images after resizing --> */
